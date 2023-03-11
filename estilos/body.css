@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&Zdisplay=swap');
+@import url('https://fonts.googleapis.com/css2?family= Krona +One &família= Montserrat & display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  
+}
+body {
+
+  box-sizing: border-box;
+  /* height: 100vh; */
+  background-color:black;
+  color: white;
+}
+
+strong {
+  color: #22D4FD;
+  text-align: center;
+}
+.cabecalho {
+  display: flex;
+  flex-direction:row;
+  justify-content:left;
+  padding: 2%  5%  5% 10%;
+  gap: 40px;
+  margin: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  color: blue;
+}
+
+.cabecalho__menu {
+  padding: 5% 15% 5% 5%;
+gap: 40px;
+}
+.cabecalho__1 {
+  justify-content: space-between;
+text-decoration: none;
+}
+
+.cabecalho__2 {
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.cabecalho__1:hover {
+background-color: blueviolet;
+color: crimson;
+border: 24px blueviolet;
+}
+
+.cabecalho__2:hover {
+  background-color: blueviolet;
+color: crimson;
+border: 24px blueviolet;
+}
+.apresentacao__titulo__botao {
+  font-family: 'Krona One', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.apresentacao__botoes {
+display: flex;
+justify-content: center;
+align-items: center;
+border: 10px blue;
+padding: 24px;
+gap: 16px;
+flex-direction: column;
+}
+.apresentacao {
+box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin: 10%;
+  border: 30px blue;
+  justify-content: space-between;
+}
+.apresentacao__conteudo {
+  justify-content: space-between;
+  margin: 10% 15%;
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.apresentacao__titulo {
+  font-size: 36px ;
+  font-family:'Krona One', sans-serif;
+
+}
+.apresentacao__paragrafo {
+  font-size: 24px ;
+  font-family: 'Montserrat', sans-serif;
+}
+.botao1 {
+  background-color: black;
+  border: 5px white;
+  height: 50px;
+  width: 300px;
+}
+.botao2 {
+  background-color: black;
+  border: 5px white;
+  height: 50px;
+  width: 300px;
+}
+.botao3 {
+  
+  background-color: black;
+  border: 40px white;
+  height: 50px;
+  width: 300px;
+}
+
+.botao1:hover {
+  background-color: chartreuse;
+  border: 20px yellowgreen;
+}
+.botao2:hover {
+  background-color: chartreuse;
+  border: 20px yellowgreen;
+}
+.botao3:hover {
+  background-color: chartreuse;
+  border: 20px yellowgreen;
+}
+.rodape {
+  background-color:blue;
+  padding: 24px;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font: 36px;
+  display: flex;
+}

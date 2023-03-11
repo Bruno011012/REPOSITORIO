@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&Zdisplay=swap');
+@import url('https://fonts.googleapis.com/css2?family= Krona +One &família= Montserrat & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Creepster & display=swap');
+
+
+:root {
+    --cor-primaria: #CF0A0A;
+    --cor-secundaria:#DC5F00;
+    --cor-terceira: #C400C6;
+    --cor-quarta: #461B93;
+    --cor-quinta: #FF0000; 
+    --cor-sexta: #0081C9;
+    --fonte-primaria: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Krona One', sans-serif;
+    --fonte-terceira: 'Smokum', sans-serif;
+    --fonte-quarta: 'Creepster', verdana;
+
+}
+* {
+    background-color: var(--cor-secundaria);
+    padding: 1%;
+    gap: 1%;
+    margin: 1%; 
+    background-color: var(--cor-quarta);
+}
+.conteudo {
+    background-color: var(--cor-terceira);
+    box-sizing: border-box;
+
+}
+
+.cabecalho_1 {
+    color: var(--cor-quinta);
+}
+.cabecalho_1:hover {
+    background-color: var(--cor-quarta);
+    color: var(--cor-sexta);
+}
+.conteudo-total {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.conteudo-total_texto {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.conteudo_texto {
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+.conteudo_texto_texto {
+    box-sizing: border-box;
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-quarta);
+}
+.conteudo_texto_texto:hover{
+    background-color: var(--cor-terceira);
+    color: var(--cor-sexta);
+
+}
+.conteudo_texto_titulo {
+    box-sizing: border-box;
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-terceira);
+}
+.conteudo_texto_titulo:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-sexta);
+
+}
+.conteudo_imagens {
+    box-sizing: border-box;
+    display: flex;
+    justify-content:left;
+    flex-direction:column;
+height: 460px;
+width: 480px;
+}
+.rodape_texto {
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    color: var(--cor-sexta);
+}
